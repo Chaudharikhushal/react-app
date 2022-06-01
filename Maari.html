@@ -1,0 +1,169 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.button {
+  background-color: #112211;
+  border: none;
+  color: white;
+  padding: 15px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+<body>
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: pink;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>SNJB College CHANDAVAD </h2>
+  <body>
+
+    <h5>MAGIC Buttons</h5>
+    
+   
+    <a href="#" class="button">home</a>
+    <button class="button">admissions</button>
+    <input type="button" class="button" value="Input Button">
+     <button class="button">ABOUT </button>
+    </body>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>college logo</h2>
+      <h5>Welcome to SNJB</h5>
+      <div class="fakeimg" style="height:400px;">Image</div>
+      <p>Some text..</p>
+      <p> Second Year Exam deffered due to internet problems in college.</p>
+    </div>
+    <div class="card">
+      <h2>College photo</h2>
+      <h5>date, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">background image</div>
+      <p>Some text..</p>
+      <p>Admissions open for Engineering Students.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px; background-image: url('logo.jfif');">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">fdp from 15 mar</div><br>
+      <div class="fakeimg">stp going in seminar hall</div><br>
+      <div class="fakeimg">principal on visit to kashmir </div><br>
+      <div class="fakeimg">students on industrial visit to dehli.</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Mmantc.edu.in</p>
+      <div class="card">
+      	<div class="fakeimg">
+      		students on industrial visit to dehli.
+      		students on industrial visit to dehli.
+      		students on industrial visit to dehli.<hr>
+      		students on industrial visit to dehli.<textarea>
+      			comment
+      		</textarea>
+      		<br><i>hello</i><b>me</b><input type="date" name="date">
+      		<input type="time" name="time">
+      		<input type="string" name="string">
+      		<a href="format.html" class="button" src="_blank">touch me going amazing world</a>
+
+      		students on industrial visit to dehli.
+      		students on industrial visit to dehli.
+
+      	</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2 >Footer</h2>
+</div>
+
+</body>
+</html>
+
+
